@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(picsss.jpg.jpg);
+  background-size: cover;
+}
+
+header {
+  background-color:rgba(255,255,0,0.75 );
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: hsl(0, 0%, 6%);
+  padding: 10px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding:0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+} 
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #ecdd09;
+}
+nav ul li a:hover{
+  color: #dbe60e;
+}
+
+main {
+  padding: 220px;
+  margin: 120px;
+  color:white;
+  position: relative;
+  top:220px;
+}
+
+.menu li {
+  display: inline-block;
+}
+.submenu li{
+  text-align: center;
+}
+.menu li:hover .submenu{
+  height: 60px;
+}
+
+
+.menu > li:hover .submenu a {
+  opacity: 1;
+}
+.menu > li a {
+  color: hsl(345, 91%, 48%);
+  position: relative;
+  height: 100%;
+}
+
+.menu > li:hover > a ::before{
+visibility: visible;
+scale: 1 1;
+}
+.menu li .submenu a {
+  color: #fefbfd;
+  opacity: 0;
+  font-size: 16px;
+  transition: opacity 0.25s;
+}
+
+.menu > li:hover .submenu a {
+  opacity: 1;
+}
+
+.submenu{
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  background: rgba(7, 152, 236, 0.75);
+  text-emphasis-color: #e18904;
+  height: 0;
+  line-height: 55px;
+  box-sizing: border-box;
+  transition: 
+  height 0.3s
+  ease-in-out;
+
+}
+
+div{
+  width: 720px;
+  height: 350px;
+  background-image: url(world.jpg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid rgba(255,0,0,0.75 ); 
+  border-radius: 3px;
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+h3{
+  background-color:rgba(255,0,0,0.75 );
+  padding: 20px;
+  text-align: center;
+}
+
+  input{
+    background-color: rgb(0,0,0,0.75);
+    margin: 8px;
+    border-radius: 7px;
+    height: 35px;
+    width: 35%;
+    -webkit-text-fill-color: #0cbbf0;
+  }
+
+
+footer {
+  background-color: hsl(180, 69%, 40%);
+  padding: 10px;
+  height: 65px;
+  width:98.9%;
+  text-align: center;
+}
+h4{
+  position: absolute;
+  top: 170px;
+  color: white;
+}
+
+a{
+  margin: 120px;
+}
+ 
